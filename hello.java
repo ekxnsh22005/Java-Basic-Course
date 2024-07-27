@@ -1,11 +1,19 @@
-
-
 public class hello {
-    public static void main(String[] args) {
 
-        for (int i = args.length-1; i > -1; i--) {
-                System.out.println(args[i]);
-            }
-        }
+    public static void main(String args[]) {
+  
+      int f = 0, g = 1;
+  
+      for (int i = 0; i <= 5; i++) {
+  
+        System.out.println(f);
+  
+        f = f + g;
+  
+        g = f - g;
+  
+      }
+  
     }
-    
+  
+  }
